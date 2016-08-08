@@ -84,15 +84,15 @@ div.blueslist ul.faces {
 	list-style-type: none;
 }
 
-div.blueslist ul.faces li:before{
+/*div.blueslist ul.faces li:before{
 	content: '';
 	width: 100px;
 	height: 100px;
 	display:inline-block;
-	background-image: url(http://emojipedia-us.s3.amazonaws.com/social/disappointed-face.png);
+	background-image: url(http://emojipedia.org/disappointed-face/);
 	background-size: contain;
 	background-repeat: no-repeat;
-}
+}*/
 
 /*CSS styling for Issue 3 Ho-Hum*/
 div.excite {
