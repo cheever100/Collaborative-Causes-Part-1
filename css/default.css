@@ -1,4 +1,58 @@
 /*CSS styling for Issue 1*/
+nav {
+	width:80%;
+	height:40px;
+	background-color:lightblue;
+	position:fixed;
+	margin:0px;
+	top:0px;
+	left:0px;
+}
+
+.boxnav {
+	width:80px;
+	height: 20px;
+	font-family: verdana;
+	font-size:15px;
+	font-style: bold;
+	background-color: darkblue;
+	color:white;
+	text-align: center;
+	padding:10px;
+}
+ul{
+	padding:0px;
+	margin:0px;
+	top:0px;
+	text-align: center;
+}
+
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: blue;   
+    text-decoration: none;
+}
+
+
+a:hover, a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+backface-visibility: visible;
+}
+
+li{
+ list-style-type: none;
+ display: inline-block;
+ padding:0px;
+}
+
 div.shades {
 	width: 80%; 
 	margin: 0 auto;
