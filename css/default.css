@@ -1,6 +1,5 @@
-/*CSS styling for Issue 1*/
 nav {
-	width:80%;
+	width:100%;
 	height:40px;
 	background-color:lightblue;
 	position:fixed;
@@ -20,7 +19,36 @@ nav {
 	text-align: center;
 	padding:10px;
 }
-ul{
+
+#logo {
+	width:190px;
+	height:190px;
+	float:left;
+	padding-top:30px;
+}
+
+p.page1 {
+	font-family: times;
+	font-size: 16px;
+	font-style: normal;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+
+
+header {
+	width:700px;
+	height:110px;
+	font-family: verdana, sans-serif;
+	font-size: 22px;
+	text-align: left;
+	padding-top:30px;
+	float:left;
+}
+
+nav ul{
 	padding:0px;
 	margin:0px;
 	top:0px;
@@ -29,30 +57,27 @@ ul{
 
 a:link {
     color: lightblue;
-    background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: orange;
-    background-color: blue;   
+    color: orange;   
     text-decoration: none;
 }
 
 
 a:hover, a:active {
     color: red;
-    background-color: transparent;
     text-decoration: none;
-backface-visibility: visible;
 }
 
-li{
+nav li{
  list-style-type: none;
  display: inline-block;
  padding:0px;
 }
 
+/*CSS styling for Issue 1*/
 div.shades {
 	width: 80%; 
 	margin: 0 auto;
