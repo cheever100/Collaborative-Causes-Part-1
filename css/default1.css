@@ -1,0 +1,119 @@
+nav {
+	width:100%;
+	height:40px;
+	background-color:lightblue;
+	position:fixed;
+	margin:0px;
+	top:0px;
+	left:0px;
+}
+
+.boxnav {
+	width:80px;
+	height: 20px;
+	font-family: verdana;
+	font-size:15px;
+	font-style: bold;
+	background-color: darkblue;
+	color:white;
+	text-align: center;
+	padding:10px;
+}
+nav ul{
+	padding:0px;
+	margin:0px;
+	top:0px;
+	text-align: center;
+}
+
+a:link {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: blue;   
+    text-decoration: none;
+}
+
+
+a:hover, a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+backface-visibility: visible;
+}
+
+nav li{
+ list-style-type: none;
+ display: inline-block;
+ padding:0px;
+}
+
+/*CSS styling for Issue 1 Shades*/
+div.shades {
+	width: 80%; 
+	margin: 0 auto;
+	border: 1px solid;
+	padding: 30px;
+	text-align: center;
+
+	}
+.grays {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	/*float: left;*/
+	/*margin: 0 auto;*/
+}
+
+
+
+/*CSS styling for Issue 2 Blues*/
+
+div.blueslist {
+	color:black;
+	font-size: 200%;
+	margin-left: 100px;
+	width: 900px;
+}
+
+div.blueslist ul.faces {
+	list-style-type: none;
+}
+
+div.blueslist ul.faces li:before{
+	content: '';
+	width: 100px;
+	height: 100px;
+	display:inline-block;
+	background-image: url(http://emojipedia-us.s3.amazonaws.com/social/disappointed-face.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/*CSS styling for Issue 3 Ho-Hum*/
+div.excite {
+	width: 1100px; 
+	margin: 0 auto;
+}
+
+/*CSS styling for the contact page*/
+img#cheever {
+    float: left;
+    margin: 10px;
+	}
+img#dangelo {
+    float: right;
+    margin: 10px;
+	}
+div.activist {
+	width: 900px; 
+	margin: 0 auto;
+	display: block;
+	font-size: 120%;
+	text-align: justify;
+	}
+
