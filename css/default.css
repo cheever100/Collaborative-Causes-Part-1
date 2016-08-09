@@ -1,7 +1,7 @@
 nav {
 	width:100%;
 	height:40px;
-	background-color:lightblue;
+	background-color: rgb(214,50,232);
 	position:fixed;
 	margin:0px;
 	top:0px;
@@ -14,39 +14,72 @@ nav {
 	font-family: verdana;
 	font-size:15px;
 	font-style: bold;
-	background-color: darkblue;
+	background-color: rgb(237,181,243);
 	color:white;
 	text-align: center;
 	padding:10px;
 }
 
 #logo {
-	width:190px;
+	width:200px;
 	height:190px;
 	float:left;
-	padding-top:0px;
+	padding-top:20px;
 }
 
-p.page1 {
+/*main {
+	width:70%;
+	text-align: center;
+}*/
+
+p.para1 {
+	width: 290px;
 	font-family: times;
 	font-size: 16px;
 	font-style: normal;
-	padding-top:10px;
 	padding-right:10px;
 	padding-left:10px;
+	padding-top:260px;
+	position:absolute;
+	left:130px;
+	text-align: left;
 }
 
-
+p.para2 {
+	width: 290px;
+	font-family: times;
+	font-size: 16px;
+	font-style: normal;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:260px;
+	position:absolute;
+	left:440px;
+	text-align: left;
+}
 
 header {
-	width:100%;
+	width:80%;
 	height:110px;
 	font-family: verdana, sans-serif;
-	font-size: 22px;
+	font-size: 30px;
 	text-align: left;
-	padding-top:30px;
-	padding-bottom:80px;
-	float:left;
+	padding-left:20px;
+	padding-top:22px;
+	padding-bottom:110px;
+	position:absolute;
+	top:0px;
+	z-index: -1;
+}
+
+span.line{
+	line-height: 10px;
+}
+
+h2{
+	font-size:26px;
+	font-weight: normal;
+	line-height: 0px;
 }
 
 nav ul{
@@ -57,18 +90,19 @@ nav ul{
 }
 
 a:link {
-    color: lightblue;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: orange;   
+    /*color: (150,20,20);   */
+    color:white;
     text-decoration: none;
 }
 
 
 a:hover, a:active {
-    color: red;
+    color: rgb(214,50,232);
     text-decoration: none;
 }
 
@@ -82,30 +116,34 @@ div.blueslist {
 	font-size: 200%;
 	margin-left: 100px;
 	width: 900px;
+	position:absolute;
+	top:200px;
 }
 
 div.blueslist ul.faces {
 	list-style-type: none;
 }
+div.blueslist {
+	color:black;
+	font-size: 150%;
+	margin-left: 300px;
+	width: 300px;
+}
 
-div.blueslist ul.faces li:before{
-	content: '';
-	width: 100px;
-	height: 100px;
-	display:inline-block;
-	background-image: url(http://emojipedia-us.s3.amazonaws.com/social/disappointed-face.png);
-	background-size: contain;
-	background-repeat: no-repeat;
+div.blueslist ul.faces {
+	list-style-type: none;
 }
 /*CSS styling for Issue 1*/
 div.shades {
-	width: 80%; 
+	width: 100%; 
 	margin: 0 auto;
 	padding-top:30px;
 	padding: 30px;
+	position:absolute;
+	top:260px;
 	text-align: center;
-
 	}
+
 .grays {
 	width: 200px;
 	height: 200px;

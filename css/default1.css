@@ -74,16 +74,19 @@ div.shades {
 /*CSS styling for Issue 2 Blues*/
 
 div.blueslist {
-	color:black;
-	font-size: 200%;
-	margin-left: 100px;
-	width: 900px;
+	font-family: times, serif;
+	font-size: 100%;
+	width: 300px;
 }
 
-div.blueslist ul.faces {
+/*div.blueslist */
+ul.faces {
+	font-size: 100%;
+	width: 300px;
+	position:absolute;
+	left:400px;
 	list-style-type: none;
 }
-
 /*div.blueslist ul.faces li:before{
 	content: '';
 	width: 100px;
