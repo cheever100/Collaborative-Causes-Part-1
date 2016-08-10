@@ -64,7 +64,6 @@ span.line {
 	line-height: 10px;
 }
 
-<<<<<<< HEAD
 span.line2{
 	line-height: 60px;
 }
@@ -77,9 +76,7 @@ h1 {
 }
 
 h2{
-=======
-h2 {
->>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
+
 	font-size:26px;
 	font-weight: normal;
 	line-height: 0px;
@@ -189,27 +186,14 @@ p.para4 {
 div.blueslist ul.faces {
 	list-style-type: none;
 }
-<<<<<<< HEAD
-/*div.blueslist {
-=======
 
-div.blueslist {
->>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
-	color:black;
-	font-size: 150%;
-	margin-left: 300px;
-	width: 300px;
-}*/
 
-<<<<<<< HEAD
 /*CSS styling for Issue 1*/
-=======
 div.blueslist ul.faces {
 	list-style-type: none;
 }
 
 /*CSS styling for Issue 1 Shades*/
->>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
 div.shades {
 	width: 100%; 
 	margin: 0 auto;
@@ -243,22 +227,12 @@ img#cheever {
 img#dangelo {
     float: left;
     margin: 10px;
-<<<<<<< HEAD
    	background-image: url(../assets/myPhoto.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	}
-/*div.activist {
-	width: 100%; 
-	margin: 0 auto;*/
-	/*display: block;
-	font-size: 120%;
-	text-align: justify;*/
-	}
 
-=======
-}
 
 div.activist {
 	width: 900px; 
@@ -271,4 +245,4 @@ div.activist {
 	font-size: 120%;
 	text-align: justify;
 }
->>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
+
