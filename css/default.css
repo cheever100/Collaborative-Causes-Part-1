@@ -105,6 +105,11 @@ a:hover, a:active {
     text-decoration: none;
 }
 
+.linkemail:link {
+    color: rgb(214,50,232);
+    text-decoration: none;
+}
+
 nav li {
  list-style-type: none;
  display: inline-block;
@@ -233,6 +238,20 @@ img#dangelo {
 	background-position: center;
 	}
 
+.car {
+ /*   float: left;*/
+   	/*background-image: url(..img/gray_car.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	}
+	/*border:1px dotted black;
+	float:left;
+	margin:10px;
+	background-image: url(../assets/BabbleLg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;*/
 
 div.activist {
 	width: 900px; 
