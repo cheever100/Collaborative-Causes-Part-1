@@ -60,10 +60,11 @@ header {
 	/*z-index: -1;*/
 }
 
-span.line{
+span.line {
 	line-height: 10px;
 }
 
+<<<<<<< HEAD
 span.line2{
 	line-height: 60px;
 }
@@ -76,12 +77,15 @@ h1 {
 }
 
 h2{
+=======
+h2 {
+>>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
 	font-size:26px;
 	font-weight: normal;
 	line-height: 0px;
 }
 
-nav ul{
+nav ul {
 	padding:0px;
 	margin:0px;
 	top:0px;
@@ -99,17 +103,17 @@ a:visited {
     text-decoration: none;
 }
 
-
 a:hover, a:active {
     color: rgb(214,50,232);
     text-decoration: none;
 }
 
-nav li{
+nav li {
  list-style-type: none;
  display: inline-block;
  padding:0px;
 }
+
 div.blueslist {
 	color:black;
 	font-size: 28px;
@@ -185,14 +189,27 @@ p.para4 {
 div.blueslist ul.faces {
 	list-style-type: none;
 }
+<<<<<<< HEAD
 /*div.blueslist {
+=======
+
+div.blueslist {
+>>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
 	color:black;
 	font-size: 150%;
 	margin-left: 300px;
 	width: 300px;
 }*/
 
+<<<<<<< HEAD
 /*CSS styling for Issue 1*/
+=======
+div.blueslist ul.faces {
+	list-style-type: none;
+}
+
+/*CSS styling for Issue 1 Shades*/
+>>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
 div.shades {
 	width: 100%; 
 	margin: 0 auto;
@@ -211,20 +228,22 @@ div.shades {
 	/*margin: 0 auto;*/
 }
 
-/*CSS styling for Issue 3*/
+/*CSS styling for Issue 3 Ho-Hum*/
 div.excite {
 	width: 1100px; 
 	margin: 0 auto;
-	}
+}
 
 /*CSS styling for the contact page*/
 img#cheever {
     float: left;
     margin: 10px;
-	}
+}
+
 img#dangelo {
     float: left;
     margin: 10px;
+<<<<<<< HEAD
    	background-image: url(../assets/myPhoto.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -238,3 +257,18 @@ img#dangelo {
 	text-align: justify;*/
 	}
 
+=======
+}
+
+div.activist {
+	width: 900px; 
+	margin: 0 auto;
+	padding-top:30px;
+	padding: 30px;
+	position:absolute;
+	top:260px;
+	display: block;
+	font-size: 120%;
+	text-align: justify;
+}
+>>>>>>> 7ee694289f8ee021969c9c70b153b768988c698c
