@@ -227,6 +227,10 @@ div.excite {
 img#cheever {
     float: left;
     margin: 10px;
+    background-image: url(../assets/jean_photo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
 }
 
 img#dangelo {
