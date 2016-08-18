@@ -6,7 +6,7 @@ nav {
 	margin:0px;
 	top:0px;
 	left:0px;
-		z-index: 1;
+	z-index: 1;
 }
 
 .boxnav {
@@ -21,7 +21,7 @@ nav {
 	padding:10px;
 }
 
-.hdrlogo{
+.hdrlogo {
 	float:left;
 }
 
@@ -31,13 +31,6 @@ nav {
 	/*float:left;*/
 	padding-top:30px;
 }
-
-/*main {
-	width:70%;
-	text-align: center;
-}*/
-
-
 
 div.pg1 {
 	width:70%;
@@ -64,7 +57,7 @@ span.line {
 	line-height: 10px;
 }
 
-span.line2{
+span.line2 {
 	line-height: 60px;
 }
 
@@ -72,11 +65,9 @@ h1 {
 	font-family: verdana, sans-serif;
 	font-size: 50px;
 	text-align: left;
-	/*top:40px;*/
 }
 
-h2{
-
+h2 {
 	font-size:26px;
 	font-weight: normal;
 	line-height: 0px;
@@ -95,7 +86,6 @@ a:link {
 }
 
 a:visited {
-    /*color: (150,20,20);   */
     color:white;
     text-decoration: none;
 }
@@ -125,6 +115,10 @@ div.blueslist {
 	position:absolute;
 	top:220px;
 	left:150px;
+}
+
+div.blueslist ul.faces {
+	list-style-type: none;
 }
 
 div.paras {
@@ -170,7 +164,7 @@ p.para3 {
 	padding-right:10px;
 	/*padding-left:60px;*/
 	float:left;
-/*	position:absolute;
+	/*position:absolute;
 	left:130px;*/
 	text-align: left;
 }
@@ -188,17 +182,11 @@ p.para4 {
 	text-align: left;
 }
 
-div.blueslist ul.faces {
-	list-style-type: none;
-}
-
-
-/*CSS styling for Issue 1*/
-div.blueslist ul.faces {
-	list-style-type: none;
-}
-
 /*CSS styling for Issue 1 Shades*/
+div.blueslist ul.faces {
+	list-style-type: none;
+}
+
 div.shades {
 	width: 100%; 
 	margin: 0 auto;
@@ -210,7 +198,7 @@ div.shades {
 	}
 
 .grays {
-/*	width: 200px;
+	/*width: 200px;
 	height: 200px;*/
 	display: inline-block;
 	/*float: left;*/
@@ -230,7 +218,9 @@ img#cheever {
     background-image: url(../assets/jean_photo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
+	border-radius: 75px;
+	animation: cause1-test 2s infinite linear; 
 }
 
 img#dangelo {
@@ -240,7 +230,37 @@ img#dangelo {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	border-radius: 75px;
+	animation: cause2-test 2s infinite linear; 
 	}
+@keyframes cause1-test {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(180deg);
+	}
+}
+@keyframes cause2-test {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(180deg);
+	}
+}
+
+div.activist {
+	width: 900px; 
+	margin: 0 auto;
+	padding-top:30px;
+	padding: 30px;
+	position:absolute;
+	top:260px;
+	display: block;
+	font-size: 120%;
+	text-align: justify;
+}
 
 .car {
  /*   float: left;*/
@@ -256,16 +276,4 @@ img#dangelo {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;*/
-
-div.activist {
-	width: 900px; 
-	margin: 0 auto;
-	padding-top:30px;
-	padding: 30px;
-	position:absolute;
-	top:260px;
-	display: block;
-	font-size: 120%;
-	text-align: justify;
-}
 
