@@ -211,6 +211,21 @@ div.excite {
 	margin: 0 auto;
 }
 
+.car {
+ /*   float: left;*/
+   	/*background-image: url(..img/gray_car.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	}
+	/*border:1px dotted black;
+	float:left;
+	margin:10px;
+	background-image: url(../assets/BabbleLg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;*/
+
 /*CSS styling for the contact page*/
 img#cheever {
     float: left;
@@ -219,7 +234,7 @@ img#cheever {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	border-radius: 75px;
+	border-radius: 75%;
 	animation: cause1-test 2s infinite linear; 
 }
 
@@ -230,7 +245,7 @@ img#dangelo {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	border-radius: 75px;
+	border-radius: 75%;
 	animation: cause2-test 2s infinite linear; 
 	}
 @keyframes cause1-test {
@@ -262,18 +277,5 @@ div.activist {
 	text-align: justify;
 }
 
-.car {
- /*   float: left;*/
-   	/*background-image: url(..img/gray_car.jpg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	}
-	/*border:1px dotted black;
-	float:left;
-	margin:10px;
-	background-image: url(../assets/BabbleLg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;*/
+
 
