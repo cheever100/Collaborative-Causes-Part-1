@@ -6,7 +6,7 @@ nav {
 	margin:0px;
 	top:0px;
 	left:0px;
-		z-index: 1;
+	z-index: 1;
 }
 
 .boxnav {
@@ -21,7 +21,7 @@ nav {
 	padding:10px;
 }
 
-.hdrlogo{
+.hdrlogo {
 	float:left;
 }
 
@@ -31,13 +31,6 @@ nav {
 	/*float:left;*/
 	padding-top:30px;
 }
-
-/*main {
-	width:70%;
-	text-align: center;
-}*/
-
-
 
 div.pg1 {
 	width:70%;
@@ -64,7 +57,7 @@ span.line {
 	line-height: 10px;
 }
 
-span.line2{
+span.line2 {
 	line-height: 60px;
 }
 
@@ -72,11 +65,9 @@ h1 {
 	font-family: verdana, sans-serif;
 	font-size: 50px;
 	text-align: left;
-	/*top:40px;*/
 }
 
-h2{
-
+h2 {
 	font-size:26px;
 	font-weight: normal;
 	line-height: 0px;
@@ -95,7 +86,6 @@ a:link {
 }
 
 a:visited {
-    /*color: (150,20,20);   */
     color:white;
     text-decoration: none;
 }
@@ -125,6 +115,10 @@ div.blueslist {
 	position:absolute;
 	top:220px;
 	left:150px;
+}
+
+div.blueslist ul.faces {
+	list-style-type: none;
 }
 
 div.paras {
@@ -170,7 +164,7 @@ p.para3 {
 	padding-right:10px;
 	/*padding-left:60px;*/
 	float:left;
-/*	position:absolute;
+	/*position:absolute;
 	left:130px;*/
 	text-align: left;
 }
@@ -188,17 +182,11 @@ p.para4 {
 	text-align: left;
 }
 
-div.blueslist ul.faces {
-	list-style-type: none;
-}
-
-
-/*CSS styling for Issue 1*/
-div.blueslist ul.faces {
-	list-style-type: none;
-}
-
 /*CSS styling for Issue 1 Shades*/
+div.blueslist ul.faces {
+	list-style-type: none;
+}
+
 div.shades {
 	width: 100%; 
 	margin: 0 auto;
@@ -209,18 +197,27 @@ div.shades {
 	text-align: center;
 	}
 
-.grays {
-/*	width: 200px;
-	height: 200px;*/
+.grays{
+	width: 200px;
+	height: 200px;
 	display: inline-block;
-	/*float: left;*/
-	/*margin: 0 auto;*/
+	float: left;
+	border:1px solid black;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 }
 
 /*CSS styling for Issue 3 Ho-Hum*/
 div.excite {
 	width: 1100px; 
 	margin: 0 auto;
+}
+
+img {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
 
 /*CSS styling for the contact page*/
@@ -230,7 +227,9 @@ img#cheever {
     background-image: url(../assets/jean_photo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
+	border-radius: 75%;
+	animation: cause1-test 2s infinite linear; 
 }
 
 img#dangelo {
@@ -240,22 +239,25 @@ img#dangelo {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	border-radius: 75%;
+	animation: cause2-test 2s infinite linear; 
 	}
-
-.car {
- /*   float: left;*/
-   	/*background-image: url(..img/gray_car.jpg);*/
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+@keyframes cause1-test {
+	0% {
+		transform: rotateX(0deg);
 	}
-	/*border:1px dotted black;
-	float:left;
-	margin:10px;
-	background-image: url(../assets/BabbleLg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;*/
+	100% {
+		transform: rotateX(180deg);
+	}
+}
+@keyframes cause2-test {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(180deg);
+	}
+}
 
 div.activist {
 	width: 900px; 
@@ -268,4 +270,70 @@ div.activist {
 	font-size: 120%;
 	text-align: justify;
 }
+
+.imghoodie{
+	background-image:url("../img/objects/hoodie.jpg");
+}
+
+
+.imgshoe{
+	background-image:url("../img/objects/gray shoes.jpg");
+}
+
+.grays.imgcar{
+	background-image:url("../img/objects/gray_car.jpg");
+	background-size:180%;
+	background-position: right;
+}
+
+.imgbooks{
+	background-image:url("../img/objects/gray books.jpg");
+}
+
+.imgclass{
+	background-image:url("../img/objects/gray classroom.jpg");
+}
+
+.imgfish{
+	background-image:url("../img/objects/gray fish.jpg");
+}
+
+.imgskies{
+	background-image:url("../img/objects/gray skies.jpg");
+}
+
+.imgradiator{
+	background-image:url("../img/objects/radiator.png");
+}
+
+.imgblouse{
+	background-image:url("../img/objects/grey_blouse.jpg");
+}
+
+
+.imggloves{
+	background-image:url("../img/objects/gloves.jpg");
+}
+
+.imgbag{
+	background-image:url("../img/objects/bag.jpg");
+}
+
+.imgart{
+	background-image:url("../img/objects/grey-wall-art.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
