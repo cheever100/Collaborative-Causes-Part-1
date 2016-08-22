@@ -197,12 +197,16 @@ div.shades {
 	text-align: center;
 	}
 
-.grays {
-	/*width: 200px;
-	height: 200px;*/
+
+.grays{
+	width: 200px;
+	height: 200px;
 	display: inline-block;
-	/*float: left;*/
-	/*margin: 0 auto;*/
+	float: left;
+	border:1px solid black;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 }
 
 /*CSS styling for Issue 3 Ho-Hum*/
@@ -211,20 +215,12 @@ div.excite {
 	margin: 0 auto;
 }
 
-.car {
- /*   float: left;*/
-   	/*background-image: url(..img/gray_car.jpg);*/
+img {
 	background-repeat: no-repeat;
-	background-size: 100%;
 	background-position: center;
-	}
-	/*border:1px dotted black;
-	float:left;
-	margin:10px;
-	background-image: url(../assets/BabbleLg.jpg);
-	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;*/
+}
+
 
 /*CSS styling for the contact page*/
 img#cheever {
@@ -317,6 +313,58 @@ div.activist {
 	display: block;
 	font-size: 120%;
 	text-align: justify;
+}
+
+.imghoodie{
+	background-image:url("../img/objects/hoodie.jpg");
+}
+
+
+.imgshoe{
+	background-image:url("../img/objects/gray shoes.jpg");
+}
+
+.grays.imgcar{
+	background-image:url("../img/objects/gray_car.jpg");
+	background-size:180%;
+	background-position: right;
+}
+
+.imgbooks{
+	background-image:url("../img/objects/gray books.jpg");
+}
+
+.imgclass{
+	background-image:url("../img/objects/gray classroom.jpg");
+}
+
+.imgfish{
+	background-image:url("../img/objects/gray fish.jpg");
+}
+
+.imgskies{
+	background-image:url("../img/objects/gray skies.jpg");
+}
+
+.imgradiator{
+	background-image:url("../img/objects/radiator.png");
+}
+
+.imgblouse{
+	background-image:url("../img/objects/grey_blouse.jpg");
+}
+
+
+.imggloves{
+	background-image:url("../img/objects/gloves.jpg");
+}
+
+.imgbag{
+	background-image:url("../img/objects/bag.jpg");
+}
+
+.imgart{
+	background-image:url("../img/objects/grey-wall-art.jpg");
 }
 
 
