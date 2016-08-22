@@ -197,9 +197,15 @@ div.shades {
 	text-align: center;
 	}
 
+<<<<<<< HEAD
 .grays{
 	width: 200px;
 	height: 200px;
+=======
+.grays {
+	/*width: 200px;
+	height: 200px;*/
+>>>>>>> dea02433f4b71f0017aeef2b30df5598167b7130
 	display: inline-block;
 	float: left;
 	border:1px solid black;
@@ -214,11 +220,28 @@ div.excite {
 	margin: 0 auto;
 }
 
+<<<<<<< HEAD
 img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
 }
+=======
+.car {
+ /*   float: left;*/
+   	/*background-image: url(..img/gray_car.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	}
+	/*border:1px dotted black;
+	float:left;
+	margin:10px;
+	background-image: url(../assets/BabbleLg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;*/
+>>>>>>> dea02433f4b71f0017aeef2b30df5598167b7130
 
 /*CSS styling for the contact page*/
 img#cheever {
@@ -271,6 +294,7 @@ div.activist {
 	text-align: justify;
 }
 
+<<<<<<< HEAD
 .imghoodie{
 	background-image:url("../img/objects/hoodie.jpg");
 }
@@ -335,5 +359,7 @@ div.activist {
 
 
 
+=======
+>>>>>>> dea02433f4b71f0017aeef2b30df5598167b7130
 
 
